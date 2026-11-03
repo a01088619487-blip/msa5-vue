@@ -26,7 +26,7 @@ const flg = ref(true);
    off를 하면  v-if는 코드가 없고 v-show는 잇음  -->
 </template>
 
-<style>
+<style scoped>
 .btn-toggle {
   background-color: rgb(249, 250, 181);
 }

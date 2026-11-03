@@ -56,12 +56,7 @@ const toggleBgColor = () => {
   <!-- Components 분리 하는법 [간단하게] -->
 </template>
 
-<style>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+<style scoped>
 #app {
   /* display: flex;
   flex-direction: row; */
